@@ -1,0 +1,54 @@
+.list-work__company {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.company__features {
+  visibility: hidden;
+}
+
+.peculiarity__header {
+  color: var(--title-text-color);
+  text-decoration: none;
+  list-style-type: none;
+  text-transform: uppercase;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.14;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  margin-bottom: 10px;
+}
+
+.peculiarity__text {
+  color: var(--gray-text-color);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  max-width: 270px;
+}
+
+.peculiarity__logo {
+  display: flex;
+  height: 120px;
+  width: 270px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+}
+
+.peculiarity__icons {
+  background: #f5f4fa;
+  border-radius: 4px;
+}

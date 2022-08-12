@@ -1,0 +1,78 @@
+.command {
+  background-color: var(--command-bgr-color);
+}
+
+.command__header {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.list-command {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+
+  gap: 30px;
+}
+
+.list-command__border {
+  background: var(--primary-white-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team__wrapper {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.name__works {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  margin-bottom: 10px;
+  text-align: center;
+  color: var(--title-text-color);
+}
+
+.profession__works {
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  font-weight: 400;
+  margin-bottom: 16px;
+  text-align: center;
+  color: var(--gray-text-color);
+}
+
+.socials-icons-list {
+  display: flex;
+  justify-content: center;
+}
+
+.socials__icons--active {
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:not(last-child) {
+    margin-right: 10px;
+  }
+}
+
+.socials-icons__logo {
+  fill: currentColor;
+}

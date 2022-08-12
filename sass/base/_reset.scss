@@ -1,0 +1,38 @@
+P,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  list-style: none;
+  position: relative;
+}
+
+.link {
+  text-decoration: none;
+  color: currentColor;
+  position: relative;
+}
